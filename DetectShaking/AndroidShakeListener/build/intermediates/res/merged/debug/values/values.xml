@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="responses">
+        <item>"Hey, stop that!"</item>
+        <item>"Why are you doing this to me?"</item>
+        <item>"What did I do to you?"</item>
+        <item>"Don't drop me!"</item>
+        <item>"I'm getting dizzy!"</item>
+    </array>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <string name="app_name">AndroidShakeListener</string>
+    <string name="shake_me">Please don\'t shake me!</string>
+    <string name="title_activity_main">AndroidShakeListener Demo</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>
