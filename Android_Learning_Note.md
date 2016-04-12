@@ -1,6 +1,6 @@
 #Android learning note
 
-1. Added the 
+1.Added the 
 \Android-sdk\platform-tools
 \Android-sdk\tools
 to 'path'.
@@ -21,3 +21,5 @@ adb push <source file path> <phone file path>
 
 adb pull <phone file path> <system file path>
 ===>export file from the phone
+
+2.
