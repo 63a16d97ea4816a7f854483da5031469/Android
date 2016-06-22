@@ -2,8 +2,8 @@
 
 As the API page of AlarmManager states regarding the set(...) and setRepeating(...) methods:
 
-"If the stated trigger time is in the past, the alarm will be triggered immediately, with an alarm count depending on how far in the past the trigger time is relative to the repeat interval."
-So, if for example you are on Wednesday, then the AlarmManager will fire the events of: Sunday, Monday, Tuesday and (possibly) Wednesday. It will actually fire only one for all of them.
+<font color=blue><b>"If the stated trigger time is in the past, the alarm will be triggered immediately, with an alarm count depending on how far in the past the trigger time is relative to the repeat interval."
+So, if for example you are on Wednesday, then the AlarmManager will fire the events of: Sunday, Monday, Tuesday and (possibly) Wednesday. It will actually fire only one for all of them.</b></font>
 
 Here is how I avoid this. Not sure it is the best way, but it works smoothly.
 
